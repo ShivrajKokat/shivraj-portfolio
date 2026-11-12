@@ -10,6 +10,7 @@ import {
   Database,
   GraduationCap,
   Mail,
+  Phone,
   MapPin,
   Menu,
   Sparkles,
@@ -391,7 +392,7 @@ function App() {
                   </p>
                 </div>
                 <span className="experience-period">
-                  August 2023 — Present
+                  July 2023 — Present
                 </span>
               </div>
 
@@ -542,33 +543,42 @@ function App() {
           </article>
         </section>
 
-        {/* CONTACT SECTION */}
-        <section className="contact-section section-wrap" id="contact">
-          <p className="section-kicker">HAVE A PROJECT IN MIND?</p>
+       
+{/* CONTACT SECTION */}
+<section className="contact-section section-wrap" id="contact">
+  <p className="section-kicker">HAVE A PROJECT IN MIND?</p>
 
-          <h2>
-            Let&apos;s build something <span>great.</span>
-          </h2>
+  <h2>
+    Let&apos;s build something <span>great.</span>
+  </h2>
 
-          <p className="contact-description">
-            Have an opportunity or project in mind? I&apos;d love to hear from
-            you.
-          </p>
+  <p className="contact-description">
+    Have an opportunity or project in mind? I&apos;d love to hear from
+    you.
+  </p>
 
-          <a
-            className="primary-button"
-            href="mailto:shivrajkokat07@gmail.com"
-          >
-            Get in touch <ArrowUpRight size={16} />
-          </a>
+  <a
+    className="primary-button"
+    href="mailto:shivrajkokat07@gmail.com"
+  >
+    Get in touch <ArrowUpRight size={16} />
+  </a>
 
-          <a
-            className="contact-email"
-            href="mailto:shivrajkokat07@gmail.com"
-          >
-            <Mail size={15} /> shivrajkokat07@gmail.com
-          </a>
-        </section>
+  <a
+    className="contact-email"
+    href="mailto:shivrajkokat07@gmail.com"
+  >
+    <Mail size={15} /> shivrajkokat07@gmail.com
+  </a>
+
+  <a
+    className="contact-email"
+    href="tel:+918329195559"
+  >
+    <Phone size={15} /> +91 8329195559
+  </a>
+</section>
+
       </main>
 
       {/* FOOTER */}
